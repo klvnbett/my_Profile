@@ -31,6 +31,30 @@ h4 {
     margin: 20px auto;
 }
 
+.header {
+    background-color: rgb(79, 212, 190);
+    left: 10px;
+    right: 10px;
+    top: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 30px 0 black;
+}
+
+.header * {
+    display: inline;
+}
+
+.header li {
+    margin: 20px;
+}
+
+.header li a {
+    color: blue;
+    text-decoration: none;
+}
+
 .introduction {
     text-align: center;
     border: 5px dotted rgb(46, 3, 27);
