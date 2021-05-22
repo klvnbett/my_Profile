@@ -1,0 +1,91 @@
+/* setting body background and font to the whole body*/
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: #caebf2;
+    color: #001f3f;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.quote {
+    font-style: italic;
+    color: maroon;
+    font-size: larger;
+}
+
+
+/*setting the container margin*/
+
+.container {
+    max-width: 840px;
+    margin: auto;
+}
+
+.container>div {
+    margin: 20px auto;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 5px dotted rgb(46, 3, 27);
+    padding: 20px;
+}
+
+.myself,
+.hobbies {
+    font-style: oblique;
+    text-align: center;
+}
+
+.mylist {
+    list-style: none;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projectgrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.projimage {
+    border-radius: 5px;
+    height: 350px;
+    width: 400px;
+    margin-top: 25px;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out .2s;
+}
+
+.project-image-wrapper {
+    justify-self: center;
+    padding: 4%;
+    text-align: center;
+    color: darkred;
+    position: relative;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: darksalmon;
+    padding: 30px;
+    border-radius: 20%;
+}
+
+.medialinks {
+    list-style: none;
+}
