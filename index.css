@@ -33,6 +33,9 @@ h4 {
 
 .introduction {
     text-align: center;
+    border: 5px dotted rgb(46, 3, 27);
+    padding: 25px;
+    margin: 30px;
 }
 
 .about {
@@ -40,6 +43,13 @@ h4 {
     grid-template-columns: 50% 50%;
     border: 5px dotted rgb(46, 3, 27);
     padding: 20px;
+}
+
+
+/*setting radius to me.jpg*/
+
+.me {
+    border-radius: 50%;
 }
 
 .myself,
